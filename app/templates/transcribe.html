@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transcribe Audio</title>
+</head>
+<body>
+    <h1>Transcribe Audio from URL</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="audio_url">Audio URL:</label>
+        <input type="text" id="audio_url" name="audio_url" required>
+        <button type="submit">Transcribe</button>
+    </form>
+</body>
+</html>
