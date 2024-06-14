@@ -1,4 +1,3 @@
-```markdown
 # Audio Transcription Project
 
 This project allows you to transcribe audio files from a given URL, detect the language of the transcription, and save the transcription to a text file.
